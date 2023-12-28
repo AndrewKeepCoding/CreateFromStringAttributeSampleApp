@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CreateFromStringAttributeSampleApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CreateFromStringAttributeSampleApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

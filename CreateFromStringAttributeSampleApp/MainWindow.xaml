@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window
+    x:Class="CreateFromStringAttributeSampleApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:CreateFromStringAttributeSampleApp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Orientation="Horizontal"
+        Spacing="10">
+        <local:PersonCard
+            BorderBrush="SkyBlue"
+            BorderThickness="1"
+            CornerRadius="8"
+            Person="Jim,Halpert,28" />
+        <TextBlock
+            VerticalAlignment="Center"
+            FontSize="30"
+            Text="❤️" />
+        <local:PersonCard
+            BorderBrush="HotPink"
+            BorderThickness="1"
+            CornerRadius="8"
+            Person="Pam,Beesly,28" />
+    </StackPanel>
+
+</Window>
